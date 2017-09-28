@@ -119,3 +119,25 @@ header .nav-item a{
   flex: 0 0 33%;
   text-align: center;
 }
+
+.carousel-image {
+  top: 10px;
+  left: 0;
+  height: 100%;
+  width: 100vh;
+  position: absolute;
+  display: block;
+  min-width: 100%;
+
+}
+
+#carousel-text {
+  z-index: 1;
+  justify-content: center;
+}
+
+#carousel {
+  display: flex;
+  height: 100vh;
+  /* width: 100vh; */
+}
